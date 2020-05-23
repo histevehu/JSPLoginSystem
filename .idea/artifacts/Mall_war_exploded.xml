@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Mall:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Mall_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Mall/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Mall" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.5-bin.jar" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/javax.mail.jar" />
+          <element id="library" level="project" name="javax.mail" />
+          <element id="library" level="project" name="activation" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/activation.jar" />
+          <element id="library" level="project" name="kaptcha-2.3.2" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/kaptcha-2.3.2.jar" />
+          <element id="library" level="project" name="commons-dbutils-1.3" />
+          <element id="library" level="project" name="c3p0-0.9.1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
